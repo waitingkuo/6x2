@@ -11,9 +11,50 @@
   top: 0;
 }
 
+h1 {
+  font-size: 28px;
+  text-align: center;
+}
+
+
+#main-container {
+  width: 1140px;
+}
+
 section {
   padding-top:60px;
 }
 section > .well {
   height: 1000px;
+}
+
+
+#about p {
+  font-size: 18px; 
+}
+
+#about .tab-content {
+}
+
+#about .pic-large {
+  width: 680px;
+  height: 340px;
+  outline: 1px solid;
+  display: inline-block;
+  margin-right: -2px;
+}
+
+#about .pic-description {
+  width: 340px;
+  height: 340px;
+  outline: 1px solid;
+  display: inline-block;
+}
+
+#about .pic-small {
+  width: 170px; 
+  height: 85px;
+  outline: 1px solid;
+  display: inline-block;
+  margin-right: -2px;
 }
