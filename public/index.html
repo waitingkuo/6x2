@@ -12,7 +12,7 @@
   </head>
 
   <style>
-    #myCarousel {
+    #top-carousel {
       margin-bottom: 0;
     }
     #top-navbar.affix-top {
@@ -22,15 +22,19 @@
       top: 0;
       width: 100%;
     }
+    section > div {
+      padding-top: 41px;
+      height: 300px;
+    }
   </style>
 
-  <body>
+  <body data-spy="scroll" data-target="#top-navbar">
 
     <div id="top-carousel" style="height: 300px;" class="carousel slide">
       <ol class="carousel-indicators">
-        <li data-target="#top-arousel" data-slide-to="0" class="active"></li>
-        <li data-target="#top-arousel" data-slide-to="1"></li>
-        <li data-target="#top-arousel" data-slide-to="2"></li>
+        <li data-target="#top-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#top-carousel" data-slide-to="1"></li>
+        <li data-target="#top-carousel" data-slide-to="2"></li>
       </ol>
 
       <div class="carousel-inner">
@@ -39,8 +43,8 @@
         <div class="item"><a class="btn btn-primary">3333333</a></div>
       </div>
 
-      <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-      <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+      <a class="carousel-control left" href="#top-arousel" data-slide="prev">&lsaquo;</a>
+      <a class="carousel-control right" href="#top-carousel" data-slide="next">&rsaquo;</a>
 
     </div>
 
@@ -56,13 +60,26 @@
       </div>
     </div>
 
-    <div id="top-navbar-padding" style="height: 41px;"></div>
 
-    <div style="height: 300px;">Home</div>
-    <div style="height: 300px;">About</div>
-    <div style="height: 300px;">Thing</div>
-    <div style="height: 300px;">Works</div>
-    <div style="height: 300px;">Contact</div>
+    <section id="home">
+      <div>Home</div>
+    </section>
+
+    <section id="about" style="margin-top: 41px;">
+      <div>About</div>
+    </section>
+
+    <section id="thinking" style="margin-top: 41px;">
+      <div>Thing</div>
+    </section>
+
+    <section id="works" style="margin-top: 41px;">
+      <div>Works</div>
+    </section>
+
+    <section id="contact" style="margin-top: 41px;">
+      <div>Contact</div>
+    </section>
 
   </body>
 
