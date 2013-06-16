@@ -27,6 +27,9 @@
 #top-navbar .navbar-inner {
   padding: 0;
 }
+#top-navbar ul.nav {
+  padding-left: 80px;
+}
 #top-navbar.affix {
   top: 0;
 }
