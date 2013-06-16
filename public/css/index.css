@@ -37,28 +37,24 @@ section > .well {
 }
 
 
-#about p {
+p {
   font-size: 18px; 
 }
 
 #about .tab-content {
   margin-bottom: 10px;
 }
-
 #about .pic-large {
   width: 680px;
   height: 340px;
   display: inline-block;
   margin-right: -4px;
 }
-
 #about .pic-description {
   width: 340px;
   height: 140px;
   display: inline-block;
-  
 }
-
 #about .pic-small {
   width: 170px; 
   height: 85px;
@@ -66,7 +62,47 @@ section > .well {
   margin-right: -4px;
 }
 
+#thinking .tab-content {
+  margin-bottom: 10px;
+}
+#thinking .pic-large {
+  width: 680px;
+  height: 340px;
+  display: inline-block;
+  margin-right: -4px;
+}
+#thinking .pic-description {
+  width: 340px;
+  height: 140px;
+  display: inline-block;
+}
+#thinking .pic-small {
+  width: 170px;
+  height: 85px;
+  display: inline-block;
+  margin-right: -4px;
+}
 
+#solution .tab-content {
+  margin-bottom: 10px;
+}
+#solution .pic-large {
+  width: 680px;
+  height: 340px;
+  display: inline-block;
+  margin-right: -4px;
+}
+#solution .pic-description {
+  width: 340px;
+  height: 140px;
+  display: inline-block;
+}
+#solution .pic-small {
+  width: 170px;
+  height: 85px;
+  display: inline-block;
+  margin-right: -4px;
+}
 
 #contact {  
   font-family: Gill Sans;
