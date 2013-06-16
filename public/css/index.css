@@ -1,21 +1,31 @@
 /* font */
 #main-container h1 {
-  font-family: Gill Sans;
-  font-size: 28px;
+  font-family: Telugu MN;
+  font-size: 24px;
+  font-weight: bold;
   text-align: center;
+  margin-top: 24px;
+  margin-bottom: 48px;
+  color: orange;
 }
-
 
 #top-carousel {
-  height: 570px;
+  width: 100%;
+  min-width: 1140px;
+  min-height: 570px;
   margin-bottom: 0;
 }
-
+#carousel-1 img{
+  width: 100%;
+}
 
 #top-navbar {
   width: 100%;
   margin-bottom: -41px;
   font-family: Telugu MN;
+}
+#top-navbar .navbar-inner {
+  padding: 0;
 }
 #top-navbar.affix {
   top: 0;
@@ -23,10 +33,32 @@
 #top-navbar .nav > li{
   margin-right: 80px; 
 }
-
+#top-navbar .navbar-line {
+  width: 100%;
+  height: 5px;
+  background-color: black;
+}
+#top-navbar .active a{
+  box-shadow: none;
+  background-color: #eeeeee;
+}
+#top-navbar li {
+  position: relative;
+}
+#top-navbar .nav-active-line {
+  position: absolute;
+  top: -5px;
+  left: 10px;
+  background-color: black;
+}
+#top-navbar .active .nav-active-line {
+  height: 7px;
+  width: 80%;
+  background-color: orange;
+}
 
 #main-container {
-  width: 1140px;
+  width: 1020px;
 }
 
 section {
@@ -37,75 +69,153 @@ section > .well {
 }
 
 
-p {
-  font-size: 18px; 
+#main-container {
+  font-family: Times New Roman;
+  font-size: 14px; 
+  line-height: 31.5px;
 }
 
+#top-navbar .navbar-inner {
+  background-image: none;
+  background-color: #eeeeee;
+}
+
+#about .story {
+  width: 920px;
+  margin: 0 auto 48px auto;
+}
+#about-tabbable {
+  width: 1020px;
+}
 #about .tab-content {
   margin-bottom: 10px;
+  width: 1020px;
+  height: 340px;
 }
 #about .pic-large {
   width: 680px;
   height: 340px;
   display: inline-block;
-  margin-right: -4px;
+  margin-right: -24px;
+  vertical-align: top;
 }
 #about .pic-description {
-  width: 340px;
-  height: 140px;
+  width: 320px;
+  height: 340px;
   display: inline-block;
+  margin-left: 30px;
+  overflow: hidden;
 }
 #about .pic-small {
   width: 170px; 
   height: 85px;
   display: inline-block;
   margin-right: -4px;
+  cursor: pointer;
 }
 
+#thinking-tabbable {
+  width: 1020px;
+}
 #thinking .tab-content {
   margin-bottom: 10px;
+  width: 1020px;
+  height: 510px;
+  overflow: hidden;
 }
 #thinking .pic-large {
   width: 680px;
-  height: 340px;
+  height: 510px;
   display: inline-block;
-  margin-right: -4px;
+  margin-right: -24px;
+  vertical-align: top;
 }
 #thinking .pic-description {
-  width: 340px;
-  height: 140px;
+  width: 320px;
+  height: 510px;
   display: inline-block;
+  margin-left: 30px;
+  overflow: auto;
 }
 #thinking .pic-small {
-  width: 170px;
+  width: 170px; 
   height: 85px;
   display: inline-block;
   margin-right: -4px;
+  cursor: pointer;
 }
 
+
+.orange-line {
+  width: 1020px;
+  height: 5px;
+  background-color: orange;
+}
+
+#solution-tabbable {
+  width: 1020px;
+}
 #solution .tab-content {
   margin-bottom: 10px;
+  width: 1020px;
+  height: 340px;
+  overflow: hidden;
 }
 #solution .pic-large {
   width: 680px;
   height: 340px;
   display: inline-block;
-  margin-right: -4px;
+  margin-right: -24px;
+  vertical-align: top;
 }
 #solution .pic-description {
-  width: 340px;
-  height: 140px;
+  width: 320px;
+  height: 340px;
   display: inline-block;
+  margin-left: 30px;
+  overflow: auto;
 }
 #solution .pic-small {
-  width: 170px;
+  width: 170px; 
   height: 85px;
   display: inline-block;
   margin-right: -4px;
+  cursor: pointer;
+}
+#solution .button {
+  width: 170px; 
+  height: 85px;
+  display: inline-block;
+  margin-right: -4px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+#contact .map{
+  margin-top: 24px; 
+  margin-bottom: 24px; 
 }
 
 #contact {  
   font-family: Gill Sans;
+}
+#contact p, #contact h3{
+  font-size: 14px;
+  line-height: 20px;
+}
+#contact p {
+  margin-bottom: 0;
+}
+#contact a{
+  color: black;
+}
+#contact h2 {
+}
+
+.padding {
+  padding-left: 24px;
 }
 
 
