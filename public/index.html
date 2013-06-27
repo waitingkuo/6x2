@@ -328,20 +328,34 @@
           <div class="tab-pane" id="solution-tab6">
             <div class="pic-large"><img src="/images/solution/SL3.png"></div>
             <div class="pic-description">description6</div>
-            </div>
+          </div>
+
+          <!-- tab7 -->
+          <div class="tab-pane" id="solution-tab7">
+            <div class="pic-large"><img src="/images/solution/SL1.png"></div>
+            <div class="pic-description">description7</div>
+          </div>
+
+          <!-- tab8 -->
+          <div class="tab-pane" id="solution-tab8">
+            <div class="pic-large"><img src="/images/solution/SL2.png"></div>
+            <div class="pic-description">description8</div>
+          </div>
 
         </div>
         <!-- Contents - End -->
 
         <div class="tabs">
-          <div class="button left-button">&lt;</div>
+          <div class="button left-button"><img width="12" src="/images/solution/arrows-left.png"></div>
           <div tab-id="solution-tab1" class="tab pic-small"><img src="/images/solution/SS1.png"></div>
           <div tab-id="solution-tab2" class="tab pic-small"><img src="/images/solution/SS2.png"></div>
           <div tab-id="solution-tab3" class="tab pic-small"><img src="/images/solution/SS3.png"></div>
           <div tab-id="solution-tab4" class="tab pic-small"><img src="/images/solution/SS1.png"></div>
           <div tab-id="solution-tab5" class="tab pic-small"><img src="/images/solution/SS2.png"></div>
           <div tab-id="solution-tab6" class="tab pic-small"><img src="/images/solution/SS3.png"></div>
-          <div class="button right-button">&gt;</div>
+          <div tab-id="solution-tab7" class="tab pic-small"><img src="/images/solution/SS1.png"></div>
+          <div tab-id="solution-tab8" class="tab pic-small"><img src="/images/solution/SS2.png"></div>
+          <div class="button right-button"><img width="12" src="/images/solution/arrows-right.png"></div>
         </div>
 
       </div>
@@ -488,14 +502,14 @@
 
   $(document).ready(function(){
     $('#solution-tabbable .tab').hide()
-    $('#solution-tabbable .tab').slice(0,4).show()
+    $('#solution-tabbable .tab').slice(0,6).show()
     $('#solution-tabbable .right-button').click(function(){
       var firstTab = parseInt($('#solution .tab[style*="display: inline-block"]').first().attr('tab-id').substring(12)) - 1;
       var tabLength = $('#solution .tab').length;
       var nextTab = firstTab + 1;
-      if (nextTab + 3 < tabLength) {
+      if (nextTab + 5 < tabLength) {
         $('#solution-tabbable .tab').hide()
-        $('#solution-tabbable .tab').slice(nextTab,nextTab+4).show()
+        $('#solution-tabbable .tab').slice(nextTab,nextTab+6).show()
       }
     });
     $('#solution-tabbable .left-button').click(function(){
@@ -504,7 +518,7 @@
       var lastTab = firstTab - 1;
       if (lastTab >= 0) {
         $('#solution-tabbable .tab').hide()
-        $('#solution-tabbable .tab').slice(lastTab,lastTab+4).show()
+        $('#solution-tabbable .tab').slice(lastTab,lastTab+6).show()
       }
     });
   });
