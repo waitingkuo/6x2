@@ -256,8 +256,12 @@ section > .well {
 
 
 #contact .map{
+  /*
   margin-top: 24px; 
   margin-bottom: 24px; 
+  */
+  width: 500px;
+  display: inline-block;
 }
 
 #contact {  
@@ -273,7 +277,18 @@ section > .well {
 #contact a{
   color: black;
 }
-#contact h2 {
+#contact .information {
+  display: inline-block;
+}
+#contact .information .name {
+  width: 100px;
+  display: inline-block;
+  text-align: right;
+}
+#contact .information .content {
+  margin-left: 30px;
+  width: 300px;
+  display: inline-block;
 }
 
 .padding {
