@@ -84,8 +84,15 @@ p::selection {
   color: #FFF;
 }
 
+h1::selection {
+  background: rgb(222,95,15);
+  color: #FFF;
+}
+
+
 section {
-  margin-top: 50px;
+  margin-top: 60px;
+  margin-bottom: -30px;
   padding-left: 60px;
   padding-right: 60px;
   border: 1px rgb(222,222,222) solid;
@@ -104,12 +111,13 @@ section > .well {
 
 
 #main-container {
-  font-family: "Times New Roman";
-  font-size: 13px; 
+  /*font-family: "Times New Roman";*/
+  font-size: 11px; 
   line-height: 22px;
   text-align: justify;
   text-justify: inter-ideograph;
-  letter-spacing: 1px;
+  color: #3C3C3C;
+  /*letter-spacing: 1px;*/
 }
 
 #top-navbar .navbar-inner {
@@ -144,16 +152,21 @@ section > .well {
   overflow: hidden;
 }
 #about .pic-description-top {
-  height: 120px;
+  height: 60px;
+  padding-top: 80px;
+  color: rgb(222,95,15);
+  font-weight: bold;
 }
 #about .pic-description-bottom {
-  height: 220px;
+  height: 280px;
+  padding-top: 100px;
+
 }
 #about .pic-small {
   width: 170px; 
   height: 85px;
   display: inline-block;
-  margin-right: -4px;
+  margin-right: -3px;
   cursor: pointer;
 }
 
@@ -180,19 +193,24 @@ section > .well {
   margin-left: 40px;
   margin-top: 30px;
   margin-bottom: 30px;
-  overflow: auto;
+  overflow: hidden;
 }
 #thinking .pic-description-top {
-  height: 120px;
+  height: 30px;
+  color: rgb(222,95,15);
+  font-weight: bold;
+  font-size: 12px;
 }
 #thinking .pic-description-bottom {
-  height: 220px;
+  height: 300px;
+  margin-top: 10px;
+  overflow:auto;
 }
 #thinking .pic-small {
   width: 170px; 
   height: 85px;
   display: inline-block;
-  margin-right: -4px;
+  margin-right: -3px;
   cursor: pointer;
 }
 
@@ -224,13 +242,19 @@ section > .well {
   height: 340px;
   display: inline-block;
   margin-left: 30px;
-  overflow: auto;
+  overflow: hidden;
 }
 #solution .pic-description-top {
-  height: 120px;
+  height: 60px;
+  color: rgb(222,95,15);
+  font-weight: bold;
+  font-size: 12px;
+  padding-top: 80px;
 }
 #solution .pic-description-bottom {
-  height: 220px;
+  height: 270px;
+  margin-top: 10px;
+  overflow:auto;
 }
 #solution .pic-small {
   width: 170px; 
@@ -249,9 +273,11 @@ section > .well {
   text-align: center;
   font-size: 30px;
 }
-#solution .left-button {
+#solution .left-button img{
+  height: 85px;
 }
-#solution .right-button {
+#solution .right-button img{
+  height: 85px;
 }
 
 
@@ -262,34 +288,44 @@ section > .well {
   */
   width: 500px;
   display: inline-block;
+  vertical-align: top;
 }
 
 #contact {  
-  font-family: Times New Roman;
+  font-size: 11px;
+  line-height: 26px;
 }
-#contact p, #contact h3{
-  font-size: 12px;
-  line-height: 18px;
-}
+
 #contact p {
   margin-bottom: 0;
 }
-#contact a{
-  color: black;
-}
+
 #contact .information {
   display: inline-block;
+  vertical-align: top;
 }
 #contact .information .name {
   width: 100px;
   display: inline-block;
   text-align: right;
+  vertical-align: top;
+
 }
+
+#contact .information .label-zoe{
+  background-color: rgb(222,95,15);
+}
+#contact .information-top {
+  margin-bottom: 60px;
+}
+
 #contact .information .content {
-  margin-left: 30px;
+  margin-left: 10px;
   width: 300px;
   display: inline-block;
 }
+
+
 
 .padding {
   padding-left: 24px;
@@ -297,8 +333,9 @@ section > .well {
 
 
 footer {
-  background-color: black;
+  background-color: #3C3C3C;
   color: white;
-  font-size: 8px;
+  font-size: 9px;
   font-weight: light;
+  text-align: center;
 }
