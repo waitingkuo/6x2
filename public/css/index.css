@@ -168,6 +168,44 @@ section > .well {
   display: inline-block;
   margin-right: -3px;
   cursor: pointer;
+  vertical-align: top;
+}
+#about [tab-id="about-tab1"] {
+  background-image: url(/images/about/AS1.png);
+}
+#about [tab-id="about-tab1"]:hover {
+  background-image: url(/images/about/AS1h.png);
+}
+
+#about [tab-id="about-tab2"] {
+  background-image: url(/images/about/AS2.png);
+}
+#about [tab-id="about-tab2"]:hover {
+  background-image: url(/images/about/AS2h.png);
+}
+#about [tab-id="about-tab3"] {
+  background-image: url(/images/about/AS3.png);
+}
+#about [tab-id="about-tab3"]:hover {
+  background-image: url(/images/about/AS3h.png);
+}
+#about [tab-id="about-tab4"] {
+  background-image: url(/images/about/AS4.png);
+}
+#about [tab-id="about-tab4"]:hover {
+  background-image: url(/images/about/AS4h.png);
+}
+#about [tab-id="about-tab5"] {
+  background-image: url(/images/about/AS5.png);
+}
+#about [tab-id="about-tab5"]:hover {
+  background-image: url(/images/about/AS5h.png);
+}
+#about [tab-id="about-tab6"] {
+  background-image: url(/images/about/AS6.png);
+}
+#about [tab-id="about-tab6"]:hover {
+  background-image: url(/images/about/AS6h.png);
 }
 
 #thinking-tabbable {
