@@ -342,7 +342,7 @@ section > .well {
 #contact .information {
   display: inline-block;
   vertical-align: top;
-  padding-top: -30px;
+  margin-top: -60px;
 }
 #contact .information .name {
   width: 100px;
