@@ -148,7 +148,7 @@ section > .well {
   width: 320px;
   height: 340px;
   display: inline-block;
-  margin-left: 30px;
+  margin-left: 40px;
   overflow: hidden;
 }
 #about .pic-description-top {
@@ -279,7 +279,7 @@ section > .well {
   width: 320px;
   height: 340px;
   display: inline-block;
-  margin-left: 30px;
+  margin-left: 40px;
   overflow: hidden;
 }
 #solution .pic-description-top {
@@ -324,9 +324,10 @@ section > .well {
   margin-top: 24px; 
   margin-bottom: 24px; 
   */
-  width: 500px;
+  width: 510px;
   display: inline-block;
   vertical-align: top;
+  padding-top: 15px;
 }
 
 #contact {  
@@ -341,6 +342,7 @@ section > .well {
 #contact .information {
   display: inline-block;
   vertical-align: top;
+  padding-top: -30px;
 }
 #contact .information .name {
   width: 100px;
@@ -353,6 +355,13 @@ section > .well {
 #contact .information .label-zoe{
   background-color: rgb(222,95,15);
 }
+
+#contact .information .label-tutu {
+  background-color: white;
+  color: rgb(153,153,153);
+  text-shadow: 1px 1px 1px white;
+}
+
 #contact .information-top {
   margin-bottom: 60px;
 }
