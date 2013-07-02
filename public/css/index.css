@@ -11,7 +11,7 @@ body {
   font-weight: bold;
   text-align: center;
   margin-top: 24px;
-  margin-bottom: 6px;
+  margin-bottom: 16px;
   color: rgb(222,95,15);
   letter-spacing:1px;
 }
@@ -128,6 +128,18 @@ section > .well {
 #about .story {
   width: 1020px;
   margin: 0 auto 16px auto;
+}
+#about .story .story-left {
+  width: 680px;
+  vertical-align: top;
+  display: inline-block;
+  margin-right: -24px;
+}
+#about .story .story-right {
+  width: 320px;
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 40px;
 }
 #about-tabbable {
   width: 1020px;
@@ -327,7 +339,6 @@ section > .well {
   width: 510px;
   display: inline-block;
   vertical-align: top;
-  padding-top: 15px;
 }
 
 #contact {  
@@ -342,7 +353,6 @@ section > .well {
 #contact .information {
   display: inline-block;
   vertical-align: top;
-  margin-top: -60px;
 }
 #contact .information .name {
   width: 100px;
