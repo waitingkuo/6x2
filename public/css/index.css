@@ -130,16 +130,20 @@ section > .well {
   margin: 0 auto 16px auto;
 }
 #about .story .story-left {
-  width: 680px;
+  width: 340px;
   vertical-align: top;
   display: inline-block;
-  margin-right: -24px;
+  margin-right: -30px;
+  line-height: 16px;
+  font-size: 10px;
 }
 #about .story .story-right {
-  width: 320px;
+  width: 340px;
   vertical-align: top;
   display: inline-block;
   margin-left: 40px;
+  line-height: 16px;
+  font-size: 10px;
 }
 #about-tabbable {
   width: 1020px;
@@ -264,6 +268,47 @@ section > .well {
   cursor: pointer;
 }
 
+#thinking [tab-id="thinking-tab1"] {
+  background-image: url(/images/thinking/TS1.png);
+}
+#thinking [tab-id="thinking-tab1"]:hover {
+  background-image: url(/images/thinking/TS1h.png);
+}
+
+#thinking [tab-id="thinking-tab2"] {
+  background-image: url(/images/thinking/TS2.png);
+}
+#thinking [tab-id="thinking-tab2"]:hover {
+  background-image: url(/images/thinking/TS2h.png);
+}
+
+#thinking [tab-id="thinking-tab3"] {
+  background-image: url(/images/thinking/TS3.png);
+}
+#thinking [tab-id="thinking-tab3"]:hover {
+  background-image: url(/images/thinking/TS3h.png);
+}
+
+#thinking [tab-id="thinking-tab4"] {
+  background-image: url(/images/thinking/TS4.png);
+}
+#thinking [tab-id="thinking-tab4"]:hover {
+  background-image: url(/images/thinking/TS4h.png);
+}
+
+#thinking [tab-id="thinking-tab5"] {
+  background-image: url(/images/thinking/TS5.png);
+}
+#thinking [tab-id="thinking-tab5"]:hover {
+  background-image: url(/images/thinking/TS5h.png);
+}
+
+#thinking [tab-id="thinking-tab6"] {
+  background-image: url(/images/thinking/TS6.png);
+}
+#thinking [tab-id="thinking-tab6"]:hover {
+  background-image: url(/images/thinking/TS6h.png);
+}
 
 /*.orange-line {
   width: 1020px;
