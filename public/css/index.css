@@ -358,6 +358,57 @@ section > .well {
   margin-right: -4px;
   cursor: pointer;
 }
+
+#solution [tab-id="solution-tab1"] {
+  background-image: url(/images/solution/SS1.png);
+}
+#solution [tab-id="solution-tab1"]:hover {
+  background-image: url(/images/solution/SS1h.png);
+}
+
+#solution [tab-id="solution-tab2"] {
+  background-image: url(/images/solution/SS2.png);
+}
+#solution [tab-id="solution-tab2"]:hover {
+  background-image: url(/images/solution/SS2h.png);
+}
+#solution [tab-id="solution-tab3"] {
+  background-image: url(/images/solution/SS3.png);
+}
+#solution [tab-id="solution-tab3"]:hover {
+  background-image: url(/images/solution/SS3h.png);
+}
+#solution [tab-id="solution-tab4"] {
+  background-image: url(/images/solution/SS4.png);
+}
+#solution [tab-id="solution-tab4"]:hover {
+  background-image: url(/images/solution/SS4h.png);
+}
+#solution [tab-id="solution-tab5"] {
+  background-image: url(/images/solution/SS5.png);
+}
+#solution [tab-id="solution-tab5"]:hover {
+  background-image: url(/images/solution/SS5h.png);
+}
+#solution [tab-id="solution-tab6"] {
+  background-image: url(/images/solution/SS6.png);
+}
+#solution [tab-id="solution-tab6"]:hover {
+  background-image: url(/images/solution/SS6h.png);
+}
+#solution [tab-id="solution-tab7"] {
+  background-image: url(/images/solution/SS7.png);
+}
+#solution [tab-id="solution-tab7"]:hover {
+  background-image: url(/images/solution/SS7h.png);
+}
+#solution [tab-id="solution-tab8"] {
+  background-image: url(/images/solution/SS8.png);
+}
+#solution [tab-id="solution-tab8"]:hover {
+  background-image: url(/images/solution/SS8h.png);
+}
+
 #solution .button {
   width: 20px; 
   height: 85px;
