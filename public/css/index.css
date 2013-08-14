@@ -128,23 +128,13 @@ section > .well {
 #about .story {
   width: 1020px;
   margin: 0 auto 16px auto;
-}
-#about .story .story-left {
-  width: 340px;
   vertical-align: top;
   display: inline-block;
-  margin-right: -30px;
-  line-height: 16px;
-  font-size: 10px;
+  line-height: 18px;
+  font-size: 11px;
+  text-align: center;
 }
-#about .story .story-right {
-  width: 340px;
-  vertical-align: top;
-  display: inline-block;
-  margin-left: 40px;
-  line-height: 16px;
-  font-size: 10px;
-}
+
 #about-tabbable {
   width: 1020px;
 }
