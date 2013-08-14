@@ -320,7 +320,7 @@ section > .well {
   width: 1020px;
 }
 #solution .tab-content {
-  margin-bottom: 10px;
+  margin-bottom: 6px;
   width: 1020px;
   height: 340px;
   overflow: hidden;
@@ -333,21 +333,24 @@ section > .well {
   vertical-align: top;
 }
 #solution .pic-description {
-  width: 320px;
-  height: 340px;
+  width: 310px;
+  height: 480px;
   display: inline-block;
   margin-left: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   overflow: hidden;
+
 }
 #solution .pic-description-top {
-  height: 60px;
+
+  height: 30px;
   color: rgb(222,95,15);
   font-weight: bold;
   font-size: 12px;
-  padding-top: 80px;
 }
 #solution .pic-description-bottom {
-  height: 270px;
+  height: 300px;
   margin-top: 10px;
   overflow:auto;
 }
@@ -407,6 +410,66 @@ section > .well {
 }
 #solution [tab-id="solution-tab8"]:hover {
   background-image: url(/images/solution/SS8h.png);
+}
+#solution [tab-id="solution-tab9"] {
+  background-image: url(/images/solution/SS9.png);
+}
+#solution [tab-id="solution-tab9"]:hover {
+  background-image: url(/images/solution/SS9h.png);
+}
+#solution [tab-id="solution-tab10"] {
+  background-image: url(/images/solution/SS10.png);
+}
+#solution [tab-id="solution-tab10"]:hover {
+  background-image: url(/images/solution/SS10h.png);
+}
+#solution [tab-id="solution-tab11"] {
+  background-image: url(/images/solution/SS11.png);
+}
+#solution [tab-id="solution-tab11"]:hover {
+  background-image: url(/images/solution/SS11h.png);
+}
+#solution [tab-id="solution-tab12"] {
+  background-image: url(/images/solution/SS12.png);
+}
+#solution [tab-id="solution-tab12"]:hover {
+  background-image: url(/images/solution/SS12h.png);
+}
+#solution [tab-id="solution-tab13"] {
+  background-image: url(/images/solution/SS13.png);
+}
+#solution [tab-id="solution-tab13"]:hover {
+  background-image: url(/images/solution/SS13h.png);
+}
+#solution [tab-id="solution-tab14"] {
+  background-image: url(/images/solution/SS14.png);
+}
+#solution [tab-id="solution-tab14"]:hover {
+  background-image: url(/images/solution/SS14h.png);
+}
+#solution [tab-id="solution-tab15"] {
+  background-image: url(/images/solution/SS15.png);
+}
+#solution [tab-id="solution-tab15"]:hover {
+  background-image: url(/images/solution/SS15h.png);
+}
+#solution [tab-id="solution-tab16"] {
+  background-image: url(/images/solution/SS16.png);
+}
+#solution [tab-id="solution-tab16"]:hover {
+  background-image: url(/images/solution/SS16h.png);
+}
+#solution [tab-id="solution-tab17"] {
+  background-image: url(/images/solution/SS17.png);
+}
+#solution [tab-id="solution-tab17"]:hover {
+  background-image: url(/images/solution/SS17h.png);
+}
+#solution [tab-id="solution-tab18"] {
+  background-image: url(/images/solution/SS18.png);
+}
+#solution [tab-id="solution-tab18"]:hover {
+  background-image: url(/images/solution/SS18h.png);
 }
 
 #solution .button {
